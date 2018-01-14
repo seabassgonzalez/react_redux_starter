@@ -4,3 +4,11 @@
 	// dummy state set to (state = {} )=> state
 
 // export default rootReducer
+
+import { combineReducers } from 'redux';
+
+const rootReducer = combineReducers({
+  state: (state = {}) => state
+});
+
+export default rootReducer;
