@@ -1,11 +1,14 @@
 // import combineReducers from redux
 
-// export default const rootReducer set to call to combineReducers 
+// create const rootReducer set to call to combineReducers 
 	// dummy state set to (state = {} )=> state
+
+// export default rootReducer
 
 import { combineReducers } from 'redux';
 
-export default const rootReducer = combineReducers({
+const rootReducer = combineReducers({
   state: (state = {}) => state
 });
 
+export default rootReducer;
